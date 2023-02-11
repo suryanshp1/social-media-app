@@ -34,10 +34,10 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Welcome to API!!"}
+    return {"message": "Hello, Welcome !!"}
 
 
 # if __name__ == "__main__":
 #     uvicorn.run(app='test:app', reload=True, debug=True)
 
-# 11:15:45
+# 11:51:45
