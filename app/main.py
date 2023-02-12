@@ -3,7 +3,7 @@ import logging
 # import uvicorn
 from fastapi import FastAPI
 # from database import engine
-from routers import post, user, auth, vote
+from .routers import post, user, auth, vote
 from fastapi.middleware.cors import CORSMiddleware
 # import config
 
@@ -39,5 +39,3 @@ def root():
 
 # if __name__ == "__main__":
 #     uvicorn.run(app='test:app', reload=True, debug=True)
-
-# 11:51:45
