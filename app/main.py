@@ -34,7 +34,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Hello, Welcome !!"}
+    return {"message": "Hello, Welcome to remote!!"}
 
 
 # if __name__ == "__main__":
